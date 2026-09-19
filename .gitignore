@@ -1,0 +1,51 @@
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+/frontend/node_modules
+/gateway/node_modules
+
+# Python Bytecode & Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.coverage
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build & Dist Outputs
+frontend/dist/
+frontend/build/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Persistent Storage Runtime Files
+database/documents_store.json
+database/chunks_store.json
+.qdrant_storage/
+postgres_data/
+
+# OS & IDE Junk Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
